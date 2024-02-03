@@ -1,0 +1,73 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.js-question-answer-div {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 20px 0;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.js-question-answer-div div {
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin: 10px 0;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+.js-submit-btn,
+.js-previos-button,
+.js-next-button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.js-submit-btn:hover,
+.js-previos-button:hover,
+.js-next-button:hover {
+  background-color: #2980b9;
+}
+
+.js-correct-answer {
+  margin-top: 20px;
+  color: #333;
+  text-align: center;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 600px) {
+  .js-question-answer-div {
+    padding: 20px;
+  }
+}
